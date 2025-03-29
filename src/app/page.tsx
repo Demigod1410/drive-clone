@@ -63,12 +63,12 @@ export default function GoogleDriveClone() {
               </div>
             ))}
           </div>
-          <Button onClick={handleUpload} className="bg-blue-600 text-white hover:bg-blue-700">
+          <Button onClick={handleUpload} className="bg-pink-600 text-white hover:bg-blue-700">
             <Upload className="mr-2" size={20} />
             Upload
           </Button>
         </div>
-        <div className="bg-gray-800 rounded-lg shadow-xl">
+        <div className="bg-black rounded-lg shadow-xl">
           <div className="px-6 py-4 border-b border-gray-700">
             <div className="grid grid-cols-12 gap-4 text-sm font-medium text-gray-400">
               <div className="col-span-6">Name</div>
